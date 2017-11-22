@@ -1,5 +1,5 @@
 function Button(text) {
-	this.text = "Cześć, jak się masz?" || 'Hello';
+	this.text = text || 'Hello';
 }
 
 Button.prototype = {
